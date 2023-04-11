@@ -2,17 +2,31 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Usar node v19.9.0
 
-```bash
+
+1. Clonar el repo de git con  el siguiente comando: 
+
+
+2. Al clonar se creara una carpeta nueva entre en ella con:
+
+cd stvprueba
+
+3. Instala las dependencias con:
+
+npm install
+
+4. Al terminar de instalar  ejecuta el comando: 
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Are tu localhost para ver el projecto:
+
+http://localhost:3000
+
+
+
+## Información Adicional
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 

@@ -18,15 +18,15 @@ export default function Prueba() {
     return (
         <div className={styles.container}>
             {/* Obtener información detallada de la película/serie según el id */}
-            <h1 className={styles.title}>Detalles de la película/serie con id: {id}</h1>
-            <div className={styles.movieDetails}>
+            <h1 className={styles.title} tabIndex="1" >Detalles de la película/serie con id: {id}</h1>
+            <div className={styles.movieDetails} >
                 <img src={pelicula.imagen} alt={pelicula.titulo} className={styles.movieImage} />
-                <div className={styles.movieInfo}>
-                    <h2 className={styles.movieTitle}>{pelicula.titulo}</h2>
-                    <p className={styles.movieSinopsis}>{pelicula.sinopsis}</p>
-                    <p className={styles.movieElenco}>Elenco: {pelicula.elenco}</p>
-                    <p className={styles.movieCalificacion}>Calificación: {pelicula.calificacion}</p>
-                    <Link href="/" className="button"><button>Ir a la página principal</button></Link>
+                <div className={styles.movieInfo} >
+                    <h2 className={styles.movieTitle} tabIndex="2">{pelicula.titulo}</h2>
+                    <p className={styles.movieSinopsis} tabIndex="3">{pelicula.sinopsis}</p>
+                    <p className={styles.movieElenco} tabIndex="4">Elenco: {pelicula.elenco}</p>
+                    <p className={styles.movieCalificacion} tabIndex="5">Calificación: {pelicula.calificacion}</p>
+                    <Link href="/" className="button" tabIndex="6"><button>Ir a la página principal</button></Link>
 
                 </div>
             </div>

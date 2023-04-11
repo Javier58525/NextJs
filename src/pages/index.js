@@ -14,14 +14,14 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.heading1}>¡Bienvenido a Claro Video!</h1>
-      <p className={styles.paragraph}>Contenido destacado, novedades, categorías, etc.</p>
-      <h2 className={styles.heading2}>Película destacada</h2>
-      <h3 className={styles.heading3}>{peliculaDestacada.titulo}</h3>
-      <p className={styles.paragraph}>{peliculaDestacada.sinopsis}</p>
-      <p className={styles.paragraph}>Elenco: {peliculaDestacada.elenco}</p>
-      <Link href={`/prueba`}>
-        <img className={styles.imageLink} src={peliculaDestacada.imagen} alt={peliculaDestacada.titulo} width={500} height={700} />
+      <h1 className={styles.heading1} tabIndex="1">¡Bienvenido a Claro Video!</h1>
+      <p className={styles.paragraph} tabIndex="2">Contenido destacado, novedades, categorías, etc.</p>
+      <h2 className={styles.heading2} tabIndex="3">Película destacada</h2>
+      <h3 className={styles.heading3} tabIndex="4">{peliculaDestacada.titulo}</h3>
+      <p className={styles.paragraph} tabIndex="5">{peliculaDestacada.sinopsis}</p>
+      <p className={styles.paragraph} tabIndex="6">Elenco: {peliculaDestacada.elenco}</p>
+      <Link href={`/prueba`} tabIndex="7">
+        <img className={styles.imageLink} src={peliculaDestacada.imagen} alt={peliculaDestacada.titulo} width={500} height={700} tabIndex="0" />
 
       </Link>
     </div>
